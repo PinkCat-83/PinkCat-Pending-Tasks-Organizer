@@ -1,7 +1,7 @@
 # PinkCat Pending Tasks Organizer
 
 PWA personal para iPhone que recomienda cada día **un proyecto en el que trabajar**: «Continuar este proyecto».
-Sin cuentas, sin servidor, sin dependencias. Los datos se guardan solo en el dispositivo (IndexedDB).
+Sin cuentas, sin servidor, sin dependencias. Los datos se guardan solo en el dispositivo (IndexedDB)..
 
 ## Qué incluye (versión 1.0.0)
 
