@@ -1,0 +1,7 @@
+# Ignorar todo lo que empiece por punto o guion bajo
+.*
+_*
+
+# Excepciones
+!.gitignore
+!.nojekyll

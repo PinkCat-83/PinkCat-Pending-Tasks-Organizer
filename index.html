@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title></title>
+    <meta name="theme-color" content="#fbf5f8" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1d1418" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="PinkCat" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-192.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script type="module" src="./js/app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="a11y.skipToContent"></a>
+
+    <header class="topbar">
+      <a class="brand" href="#/today" data-i18n="app.shortName"></a>
+      <a class="topbar-link" href="#/data" data-nav="data">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h10" /></svg>
+        <span data-i18n="nav.data"></span>
+      </a>
+    </header>
+
+    <div id="banners" class="banners" aria-live="polite"></div>
+
+    <main id="main" class="main" tabindex="-1"></main>
+
+    <nav class="tabbar" data-i18n-aria-label="nav.label">
+      <a href="#/today" data-nav="today">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v2M12 18v2M4 12h2M18 12h2M6.3 6.3l1.4 1.4M16.3 16.3l1.4 1.4M6.3 17.7l1.4-1.4M16.3 7.7l1.4-1.4M12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" /></svg>
+        <span data-i18n="nav.today"></span>
+      </a>
+      <a href="#/projects" data-nav="projects">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" /></svg>
+        <span data-i18n="nav.projects"></span>
+      </a>
+      <a href="#/ideas" data-nav="ideas">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6zM14 3v5h5M9 13h7M9 17h5" /></svg>
+        <span data-i18n="nav.ideas"></span>
+      </a>
+      <a href="#/history" data-nav="history">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7v5l3 2M21 12a9 9 0 1 1-9-9 9 9 0 0 1 9 9z" /></svg>
+        <span data-i18n="nav.history"></span>
+      </a>
+    </nav>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>

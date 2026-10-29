@@ -1,0 +1,331 @@
+{
+  "app": {
+    "name": "PinkCat Pending Tasks Organizer",
+    "shortName": "PinkCat",
+    "titlePattern": "{page} – {app}",
+    "offline": "Sin conexión. Puedes seguir usando la app: tus datos están en este dispositivo.",
+    "updateAvailable": "Hay una versión nueva de la app.",
+    "updateNow": "Actualizar"
+  },
+  "a11y": {
+    "skipToContent": "Ir al contenido"
+  },
+  "nav": {
+    "label": "Navegación principal",
+    "today": "Hoy",
+    "projects": "Proyectos",
+    "ideas": "Ideas",
+    "history": "Historial",
+    "data": "Datos"
+  },
+  "common": {
+    "cancel": "Cancelar",
+    "back": "Volver",
+    "optional": "(opcional)",
+    "separator": ", "
+  },
+  "today": {
+    "title": "¿Qué toca hoy?",
+    "task": "Continuar este proyecto",
+    "outcomeLabel": "Se dará por terminado cuando…",
+    "start": "Empezar sesión",
+    "chooseOther": "Elegir otra tarea",
+    "workOnSomethingElse": "Trabajar hoy en otra cosa",
+    "seeProjects": "Ver proyectos",
+    "noProgressYet": "Todavía no hay avances registrados.",
+    "lastWorked": "Último avance: {when}.",
+    "empty": {
+      "text": "Todavía no tienes proyectos. Crea el primero y aquí verás en qué trabajar cada día.",
+      "action": "Crear mi primer proyecto"
+    },
+    "sessionInProgress": {
+      "label": "Sesión en curso",
+      "text": "Tienes una sesión en curso: {what}."
+    },
+    "noPriority": {
+      "text": "Ahora mismo no hay ningún proyecto prioritario.",
+      "pick": "Elige cuál será tu prioridad",
+      "nothingParked": "No tienes proyectos aparcados. Puedes crear uno nuevo o recuperar uno completado o descartado desde Proyectos."
+    }
+  },
+  "deadline": {
+    "title": "Fechas límite cercanas",
+    "label": "Fecha límite {when} ({date})",
+    "hint": "Es solo un aviso: tu prioridad no cambia sola."
+  },
+  "choose": {
+    "title": "Elegir otra tarea",
+    "intro": "Puedes trabajar hoy en otra cosa. Tu proyecto prioritario sigue siendo el mismo.",
+    "sessionInProgress": "Ya tienes una sesión en curso. Termínala o cancélala antes de empezar otra.",
+    "otherProject": "Otro proyecto",
+    "noOtherProjects": "No hay proyectos aparcados.",
+    "customTask": "Una tarea puntual",
+    "customTaskLabel": "¿En qué vas a trabajar?",
+    "customTaskHint": "Algo concreto que no forma parte de tus proyectos.",
+    "startCustom": "Empezar con esta tarea"
+  },
+  "session": {
+    "title": "Sesión en curso",
+    "none": "No hay ninguna sesión en curso.",
+    "backToToday": "Volver a Hoy",
+    "resume": "Volver a la sesión",
+    "focusLabel": "En qué estás trabajando",
+    "customTask": "Tarea puntual",
+    "startedAt": "Empezaste a las {time}.",
+    "intentionLabel": "¿Qué te gustaría conseguir en esta sesión?",
+    "intentionHint": "Se guarda mientras escribes.",
+    "finishTitle": "Terminar la sesión",
+    "resultQuestion": "¿Cómo ha ido?",
+    "results": {
+      "progressed": "Avancé",
+      "partial": "Avancé un poco",
+      "none": "No avancé",
+      "obsolete": "Ya no tiene sentido"
+    },
+    "noteLabel": "Nota",
+    "projectOptions": "Sobre el proyecto",
+    "completeProject": "He terminado el proyecto",
+    "discardProject": "Descartar el proyecto",
+    "save": "Guardar sesión",
+    "saved": "Sesión guardada.",
+    "cancel": "Cancelar sesión",
+    "cancelTitle": "¿Cancelar la sesión?",
+    "cancelMessage": "No se guardará nada de esta sesión.",
+    "cancelConfirm": "Cancelar sesión",
+    "keepGoing": "Seguir con la sesión"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "new": "Nuevo proyecto",
+    "empty": "Todavía no tienes proyectos.",
+    "noActive": "Ningún proyecto es prioritario ahora mismo.",
+    "parkedGroup": "Aparcados",
+    "completedGroup": "Completados",
+    "discardedGroup": "Descartados",
+    "groupCount": "{title} ({count})",
+    "deadlineShort": "fecha límite {date}"
+  },
+  "project": {
+    "newTitle": "Nuevo proyecto",
+    "editTitle": "Editar proyecto",
+    "notFoundTitle": "Proyecto no encontrado",
+    "edit": "Editar",
+    "fields": {
+      "name": "Nombre",
+      "desiredOutcome": "Resultado final",
+      "description": "Descripción",
+      "importance": "Importancia",
+      "deadline": "Fecha límite",
+      "lastWorkedAt": "Último avance",
+      "createdAt": "Creado"
+    },
+    "form": {
+      "desiredOutcomeHint": "¿Cuándo lo darás por terminado?",
+      "deadlineHint": "Solo sirve para avisarte; nunca cambia tu prioridad.",
+      "makeActive": "Hacerlo mi proyecto prioritario",
+      "parkedNote": "Se guardará como aparcado. Tu prioridad actual, «{name}», no cambia.",
+      "save": "Guardar proyecto",
+      "created": "Proyecto creado.",
+      "updated": "Cambios guardados."
+    },
+    "complete": "Marcar como completado",
+    "completeTitle": "¿Marcar como completado?",
+    "completeMessage": "«{name}» pasará a Completados. Podrás recuperarlo cuando quieras.",
+    "completeActiveMessage": "«{name}» pasará a Completados. Hoy quedará sin prioridad hasta que elijas otro proyecto.",
+    "completed": "Proyecto completado.",
+    "discard": "Descartar",
+    "discardTitle": "¿Descartar el proyecto?",
+    "discardMessage": "«{name}» pasará a Descartados. Se conserva toda su información y podrás recuperarlo.",
+    "discardActiveMessage": "«{name}» pasará a Descartados. Hoy quedará sin prioridad hasta que elijas otro proyecto.",
+    "discarded": "Proyecto descartado.",
+    "recover": "Recuperar",
+    "recoverTitle": "¿Recuperar el proyecto?",
+    "recoverMessage": "«{name}» volverá a Aparcados con toda su información.",
+    "recovered": "Proyecto recuperado.",
+    "recentSessions": "Sesiones recientes",
+    "noSessions": "Todavía no hay sesiones de este proyecto."
+  },
+  "status": {
+    "active": "Prioritario",
+    "parked": "Aparcado",
+    "completed": "Completado",
+    "discarded": "Descartado"
+  },
+  "importance": {
+    "low": "Importancia baja",
+    "medium": "Importancia media",
+    "high": "Importancia alta"
+  },
+  "priority": {
+    "title": "Cambiar la prioridad",
+    "make": "Convertir en proyecto prioritario",
+    "makeShort": "Elegir",
+    "makeFor": "Hacer prioritario «{name}»",
+    "makeTitle": "¿Hacerlo prioritario?",
+    "makeMessage": "«{name}» será tu proyecto prioritario y aparecerá en Hoy.",
+    "makeConfirm": "Hacerlo prioritario",
+    "current": "Prioridad actual",
+    "noCurrent": "Ninguna",
+    "next": "Nueva prioridad",
+    "keepsData": "Los dos proyectos conservan toda su información. El actual pasará a Aparcados.",
+    "reasonQuestion": "¿Por qué cambias?",
+    "reasons": {
+      "urgent": "Ha aparecido algo más urgente",
+      "moreImportant": "El nuevo proyecto es ahora más importante",
+      "lostInterest": "He perdido el interés en el proyecto actual",
+      "blocked": "Estoy bloqueado y necesito avanzar en otra cosa",
+      "opportunity": "Ha surgido una oportunidad concreta",
+      "other": "Otro motivo"
+    },
+    "noteLabel": "Nota",
+    "confirm": "Confirmar cambio",
+    "done": "«{name}» es ahora tu prioridad.",
+    "notAvailable": "Solo se puede convertir en prioritario un proyecto aparcado."
+  },
+  "ideas": {
+    "title": "Ideas",
+    "intro": "Un bloc de notas para lo que quieras recordar o investigar. Lo que escribas aquí no cambia tus proyectos.",
+    "fieldLabel": "Nueva idea",
+    "fieldHint": "Por ejemplo: «Mirar cómo hacer copias automáticas».",
+    "editLabel": "Editar idea",
+    "save": "Guardar idea",
+    "saved": "Idea guardada.",
+    "updated": "Idea actualizada.",
+    "edit": "Editar",
+    "delete": "Borrar",
+    "deleteTitle": "¿Borrar esta idea?",
+    "deleteMessage": "Se borrará del bloc de notas.",
+    "deleted": "Idea borrada.",
+    "keep": "Conservarla",
+    "toProject": "Crear proyecto",
+    "afterConvertTitle": "¿Borrar la idea?",
+    "afterConvertMessage": "El proyecto ya está creado. Puedes borrar la idea del bloc de notas o conservarla.",
+    "empty": "Aún no has anotado ninguna idea.",
+    "listTitle": {
+      "one": "{count} idea",
+      "other": "{count} ideas"
+    },
+    "quickAdd": "Anotar una idea",
+    "quickAddTitle": "Anotar una idea"
+  },
+  "history": {
+    "title": "Historial",
+    "empty": "Todavía no hay nada aquí. Verás cada sesión que registres y cada cambio de prioridad o de tarea.",
+    "unknownProject": "Proyecto borrado",
+    "kinds": {
+      "session": "Sesión",
+      "priorityChange": "Cambio de prioridad",
+      "taskChange": "Otra tarea elegida",
+      "statusChange": "Cambio de estado"
+    },
+    "priorityFromTo": "De «{from}» a «{to}»",
+    "priorityNew": "«{to}» pasa a ser la prioridad",
+    "reason": "Motivo: {reason}",
+    "note": "Nota: {text}",
+    "intention": "Intención: {text}",
+    "notRecommended": "No era la recomendación del día",
+    "customTask": "Tarea puntual",
+    "insteadOf": "En lugar de «{name}»",
+    "noRecommendation": "No había proyecto prioritario",
+    "statusTo": {
+      "active": "Pasó a prioritario",
+      "parked": "Recuperado (aparcado)",
+      "completed": "Completado",
+      "discarded": "Descartado"
+    }
+  },
+  "data": {
+    "title": "Datos y copias",
+    "local": {
+      "title": "Dónde están tus datos",
+      "text": "Todo se guarda solo en este dispositivo, dentro del navegador. No se envía nada a ningún servidor.",
+      "warning": "Si borras los datos del navegador o pierdes el dispositivo, perderás también los datos de la app. Haz copias de seguridad de vez en cuando."
+    },
+    "persistence": {
+      "granted": "Almacenamiento persistente: concedido por el navegador.",
+      "not-granted": "Almacenamiento persistente: no concedido. El navegador podría borrar los datos si necesita espacio.",
+      "unsupported": "Este navegador no permite consultar si el almacenamiento es persistente.",
+      "request": "Solicitar almacenamiento persistente",
+      "denied": "El navegador no lo ha concedido. Las copias de seguridad son la mejor protección."
+    },
+    "counts": "Proyectos: {projects}. Sesiones: {sessions}. Entradas de historial: {history}. Ideas: {ideas}.",
+    "export": {
+      "title": "Exportar copia de seguridad",
+      "textShare": "Genera un archivo JSON con todos tus datos. Con «Compartir» puedes enviarlo por correo o guardarlo en Archivos.",
+      "textDownload": "Genera un archivo JSON con todos tus datos. Si quieres guardarlo en tu correo, adjunta el archivo descargado a un mensaje.",
+      "share": "Compartir copia",
+      "shared": "Copia compartida.",
+      "shareFailed": "No se ha podido compartir. Prueba con «Descargar copia».",
+      "download": "Descargar copia",
+      "downloaded": "Copia descargada."
+    },
+    "import": {
+      "title": "Importar copia de seguridad",
+      "text": "Sustituye todos los datos actuales por los de un archivo exportado antes. Se comprueba el archivo antes de cambiar nada.",
+      "choose": "Elegir archivo",
+      "invalid": "El archivo no se puede importar:",
+      "moreErrors": {
+        "one": "Y {count} problema más.",
+        "other": "Y {count} problemas más."
+      },
+      "confirmTitle": "¿Reemplazar los datos actuales?",
+      "exportedAt": "Copia creada el {date}.",
+      "confirmMessage": "Los datos que tienes ahora en este dispositivo se sustituirán por los de la copia. Si quieres conservarlos, exporta antes una copia.",
+      "confirm": "Reemplazar datos",
+      "done": "Copia importada."
+    },
+    "install": {
+      "title": "Instalar la app",
+      "standalone": "Estás usando la app instalada.",
+      "browser": "Estás usando la app desde el navegador. Para instalarla en el iPhone:",
+      "step1": "Abre esta página en Safari.",
+      "step2": "Toca el botón Compartir.",
+      "step3": "Elige «Añadir a pantalla de inicio» y confirma."
+    },
+    "offline": {
+      "ready": "Uso sin conexión: preparado.",
+      "checking": "Uso sin conexión: comprobando…",
+      "unsupported": "Uso sin conexión: este navegador no lo permite.",
+      "insecure": "Uso sin conexión: no disponible, porque la página no se sirve por HTTPS ni desde localhost.",
+      "error": "Uso sin conexión: no se ha podido preparar."
+    },
+    "version": "Versión {version}"
+  },
+  "backup": {
+    "fileName": "pinkcat-copia-{date}.json",
+    "shareTitle": "Copia de seguridad de PinkCat",
+    "sections": {
+      "projects": "proyectos",
+      "sessions": "sesiones",
+      "history": "historial",
+      "ideas": "ideas"
+    },
+    "errors": {
+      "unreadable": "No se ha podido leer el archivo.",
+      "notJson": "El archivo no es un JSON válido.",
+      "notBackup": "El archivo no es una copia de seguridad de PinkCat.",
+      "newerVersion": "La copia se creó con una versión más nueva de la app. Actualiza la app e inténtalo de nuevo.",
+      "invalidSection": "Falta la sección de {section} o tiene un formato incorrecto.",
+      "invalidItem": "El elemento {position} de {section} está incompleto o tiene datos incorrectos.",
+      "duplicateId": "Hay elementos repetidos en {section}.",
+      "multipleActive": "La copia tiene más de un proyecto prioritario."
+    }
+  },
+  "errors": {
+    "screenTitle": "Algo no ha ido bien",
+    "generic": "No se ha podido completar la acción. Inténtalo de nuevo.",
+    "storageUnavailable": "Este navegador no permite guardar datos localmente (IndexedDB). Si estás en navegación privada, abre la app en una ventana normal.",
+    "nameRequired": "Escribe un nombre para el proyecto.",
+    "activeExists": "Ya hay un proyecto prioritario. Para cambiarlo, usa «Convertir en proyecto prioritario».",
+    "projectNotFound": "Ese proyecto ya no existe.",
+    "notParked": "Solo se puede convertir en prioritario un proyecto aparcado.",
+    "reasonRequired": "Elige un motivo para el cambio.",
+    "invalidStatusChange": "Ese cambio de estado no es posible.",
+    "sessionInProgress": "Ya tienes una sesión en curso.",
+    "taskRequired": "Escribe en qué vas a trabajar.",
+    "resultRequired": "Elige cómo ha ido la sesión.",
+    "noSession": "No hay ninguna sesión en curso.",
+    "ideaRequired": "Escribe algo antes de guardar.",
+    "ideaNotFound": "Esa idea ya no existe."
+  }
+}
